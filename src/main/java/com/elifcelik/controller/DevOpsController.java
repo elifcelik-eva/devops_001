@@ -1,4 +1,4 @@
-package com.controller;
+package com.elifcelik.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,11 +12,11 @@ public class DevOpsController {
 
     @GetMapping
     public String devopsHello(){
-        return "Hello DevOps! " + LocalDateTime.now();
+        return "DevOps! Version: 3 " + "Date: " + LocalDateTime.now();
     }
 
     @GetMapping("info")
     public String info(){
-        return "Info : " + LocalDateTime.now();
+        return "Info Version: 3 " + "Date: " + LocalDateTime.now();
     }
 }

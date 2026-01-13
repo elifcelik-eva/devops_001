@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.elifcelik</groupId>
-    <artifactId>devops_001_hello</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>devops_001_hello</name>
-    <description>devops_001_hello</description>
+    <artifactId>devops_001</artifactId>
+    <version>1.0.3</version>
+    <name>devops_001</name>
+    <description>DevOps_001</description>
     <url/>
     <licenses>
         <license/>
